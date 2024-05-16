@@ -70,6 +70,7 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          
           "configurations": {
             "production": {
               "buildTarget": "appFront:build:production"
@@ -106,5 +107,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "57358bc0-a899-4966-b887-57cf09d46aee"
   }
 }
